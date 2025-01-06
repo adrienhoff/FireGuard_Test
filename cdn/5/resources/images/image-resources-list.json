@@ -1,0 +1,30 @@
+{
+  "1725824709688": {
+    "originalName": "FireGuard_Tiny.png",
+    "fileName": "1725824709688.png",
+    "size": 14651,
+    "url": "${appResourceUrl}/images/widget_4/1725824709688.png",
+    "created": 1725824709688,
+    "resourcesPrefix": "images/widget_4",
+    "referedIds": [],
+    "originId": "1725824709688",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 100,
+    "originalHeight": 100
+  },
+  "1730933102436": {
+    "originalName": "FireGuard_TinyClean2.png",
+    "fileName": "1730933102436.png",
+    "size": 81091,
+    "url": "${appResourceUrl}/images/widget_4/1730933102436.png",
+    "created": 1730933102436,
+    "resourcesPrefix": "images/widget_4",
+    "referedIds": [],
+    "originId": "1730933102436",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 253,
+    "originalHeight": 247
+  }
+}
