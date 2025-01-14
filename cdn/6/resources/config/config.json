@@ -294,6 +294,11 @@
           "type": "WIDGET",
           "widgetId": "widget_68",
           "bbox": {}
+        },
+        "12": {
+          "type": "WIDGET",
+          "widgetId": "widget_69",
+          "bbox": {}
         }
       },
       "type": "FIXED",
@@ -307,7 +312,8 @@
         "6",
         "7",
         "8",
-        "11"
+        "11",
+        "12"
       ]
     },
     "layout_8": {
@@ -13170,6 +13176,18 @@
       "useMapWidgetIds": [
         "widget_1"
       ]
+    },
+    "widget_69": {
+      "uri": "widgets/Sketch/",
+      "version": "1.15.0",
+      "config": {
+        "exampleConfigProperty": "test",
+        "filterField": ""
+      },
+      "id": "widget_69",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -13945,7 +13963,7 @@
       "page_11": []
     }
   ],
-  "timestamp": 1735919825211,
+  "timestamp": 1736873236452,
   "controllerPanels": {
     "widget_5": {
       "position": "BOTTOM_LEFT",
