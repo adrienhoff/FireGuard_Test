@@ -13182,10 +13182,7 @@
         "exampleConfigProperty": "test",
         "filterField": ""
       },
-      "id": "widget_69",
-      "useMapWidgetIds": [
-        "widget_1"
-      ]
+      "id": "widget_69"
     }
   },
   "widgetsManifest": {},
@@ -13967,7 +13964,7 @@
       "page_11": []
     }
   ],
-  "timestamp": 1736873236452,
+  "timestamp": 1736883319545,
   "controllerPanels": {
     "widget_5": {
       "position": "BOTTOM_LEFT",
@@ -14074,5 +14071,5 @@
     "uid": "643ae510-9d5f-11ef-b9ee-7da3903f4cec"
   },
   "utilities": {},
-  "publishTimestamp": 1736873238322
+  "publishTimestamp": 1736883321279
 }
