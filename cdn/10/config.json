@@ -290,11 +290,6 @@
           "widgetId": "widget_65",
           "bbox": {}
         },
-        "11": {
-          "type": "WIDGET",
-          "widgetId": "widget_68",
-          "bbox": {}
-        },
         "12": {
           "type": "WIDGET",
           "widgetId": "widget_69",
@@ -312,7 +307,6 @@
         "6",
         "7",
         "8",
-        "11",
         "12"
       ]
     },
@@ -7465,7 +7459,73 @@
             "remarks"
           ]
         }
-      ]
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
     },
     "widget_26": {
       "uri": "widgets/common/chart/",
@@ -13149,32 +13209,6 @@
         "widget_1"
       ]
     },
-    "widget_68": {
-      "uri": "widgets/Editor/",
-      "version": "1.15.0",
-      "config": {
-        "exampleConfigProperty": "test"
-      },
-      "id": "widget_68",
-      "icon": {
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M11.227 1.312c-.404-.404-1.045-.417-1.432-.03L2.49 8.587l-.48 2.674a.637.637 0 0 0 .73.73l2.673-.48 7.305-7.306c.387-.387.374-1.028-.03-1.431zm-8.114 9.575.32-1.781 4.991-4.992 1.462 1.462-4.992 4.991zm7.473-6.012 1.402-1.4-1.462-1.463-1.401 1.402z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M1.5 14a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1z\"></path></svg>",
-        "properties": {
-          "filename": "EditOutlined",
-          "originalName": "outlined/editor/edit.svg",
-          "path": [
-            "editor",
-            "EditOutlined"
-          ],
-          "color": "var(--light)",
-          "size": 16,
-          "inlineSvg": true,
-          "isUploaded": false
-        }
-      },
-      "useMapWidgetIds": [
-        "widget_1"
-      ]
-    },
     "widget_69": {
       "uri": "widgets/Sketch/",
       "version": "1.15.0",
@@ -13182,7 +13216,10 @@
         "exampleConfigProperty": "test",
         "filterField": ""
       },
-      "id": "widget_69"
+      "id": "widget_69",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -13932,7 +13969,7 @@
       }
     },
     "isWebTier": false,
-    "clientId": "e8naIKPWzppIIwTA",
+    "clientId": "",
     "title": "FireGuard Web Editor - Alpha",
     "description": "",
     "type": "Web Experience",
@@ -13964,7 +14001,7 @@
       "page_11": []
     }
   ],
-  "timestamp": 1736883319545,
+  "timestamp": 1736909684454,
   "controllerPanels": {
     "widget_5": {
       "position": "BOTTOM_LEFT",
@@ -14071,5 +14108,5 @@
     "uid": "643ae510-9d5f-11ef-b9ee-7da3903f4cec"
   },
   "utilities": {},
-  "publishTimestamp": 1736883321279
+  "publishTimestamp": 1736909685528
 }
