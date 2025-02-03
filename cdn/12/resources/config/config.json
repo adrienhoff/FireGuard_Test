@@ -59,45 +59,6 @@
           "inlineSvg": true
         }
       }
-    },
-    "page_6": {
-      "id": "page_6",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_21"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "Test",
-      "header": false,
-      "footer": false
-    },
-    "page_8": {
-      "id": "page_8",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_23"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "Test2",
-      "header": false,
-      "footer": false
-    },
-    "page_11": {
-      "id": "page_11",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_25"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "Page",
-      "header": false,
-      "footer": false
     }
   },
   "layouts": {
@@ -224,6 +185,28 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "11": {
+          "type": "WIDGET",
+          "widgetId": "widget_71",
+          "bbox": {
+            "left": "50%",
+            "bottom": "9.9%",
+            "width": "8.0%",
+            "height": "5.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
         }
       },
       "type": "FIXED",
@@ -232,7 +215,8 @@
         "3",
         "4",
         "7",
-        "10"
+        "10",
+        "11"
       ]
     },
     "layout_3": {
@@ -284,16 +268,6 @@
           "widgetId": "widget_53",
           "bbox": {},
           "setting": {}
-        },
-        "8": {
-          "type": "WIDGET",
-          "widgetId": "widget_65",
-          "bbox": {}
-        },
-        "12": {
-          "type": "WIDGET",
-          "widgetId": "widget_69",
-          "bbox": {}
         }
       },
       "type": "FIXED",
@@ -305,9 +279,7 @@
         "2",
         "5",
         "6",
-        "7",
-        "8",
-        "12"
+        "7"
       ]
     },
     "layout_8": {
@@ -435,11 +407,11 @@
           "type": "WIDGET",
           "widgetId": "widget_31",
           "bbox": {
-            "left": "32.7%",
-            "right": "32.7%",
-            "top": "90.7%",
-            "bottom": "2.00%",
-            "width": "34.6%",
+            "left": "30.5%",
+            "right": "30.5%",
+            "top": "92.4%",
+            "bottom": "2.0%",
+            "width": "39.0%",
             "height": "5.6%"
           },
           "setting": {
@@ -519,26 +491,6 @@
               "bottom": true
             }
           }
-        },
-        "9": {
-          "type": "WIDGET",
-          "widgetId": "widget_52",
-          "bbox": {
-            "left": "46.0%",
-            "right": "26.0%",
-            "top": "25.0%",
-            "bottom": "15.3%",
-            "width": "28.0%",
-            "height": "59.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
         }
       },
       "type": "FIXED",
@@ -547,8 +499,7 @@
         "3",
         "4",
         "7",
-        "8",
-        "9"
+        "8"
       ]
     },
     "layout_16": {
@@ -599,6 +550,11 @@
           "widgetId": "widget_51",
           "bbox": {},
           "setting": {}
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_70",
+          "bbox": {}
         }
       },
       "type": "FIXED",
@@ -609,7 +565,8 @@
         "4",
         "2",
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     "layout_17": {
@@ -687,186 +644,23 @@
       ],
       "label": "Default"
     },
-    "layout_21": {
-      "type": "FIXED",
+    "layout_19": {
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_57",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_22": {
-      "content": {
-        "0": {
+          "widgetId": "widget_69",
+          "bbox": {}
+        },
+        "1": {
           "type": "WIDGET",
-          "widgetId": "widget_60",
-          "bbox": {
-            "left": "10.6%",
-            "right": "61.4%",
-            "top": "40.3%",
-            "bottom": "-0.0%",
-            "width": "28.0%",
-            "height": "59.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            }
-          }
+          "widgetId": "widget_65",
+          "bbox": {}
         }
       },
       "type": "FIXED",
-      "label": "Map FixedLayout",
+      "label": "Controller layout",
       "order": [
-        "0"
-      ]
-    },
-    "layout_23": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_61",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_24": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_62",
-          "bbox": {
-            "left": "5.5%",
-            "right": "66.6%",
-            "top": "40.3%",
-            "bottom": "-0.0%",
-            "width": "28.0%",
-            "height": "59.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "Map FixedLayout",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_25": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_63",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "height": "STRETCH",
-              "width": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_26": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_64",
-          "bbox": {
-            "left": "12.8%",
-            "right": "59.2%",
-            "top": "34.6%",
-            "bottom": "5.6%",
-            "width": "28.0%",
-            "height": "59.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      },
-      "type": "FIXED",
-      "label": "Map FixedLayout",
-      "order": [
+        "1",
         "0"
       ]
     }
@@ -7460,73 +7254,7 @@
             "remarks"
           ]
         }
-      ],
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      }
+      ]
     },
     "widget_26": {
       "uri": "widgets/common/chart/",
@@ -11909,7 +11637,73 @@
             "Shape__Length"
           ]
         }
-      ]
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
     },
     "widget_38": {
       "uri": "widgets/common/chart/",
@@ -12742,19 +12536,6 @@
         "widget_29"
       ]
     },
-    "widget_52": {
-      "uri": "widgets/arcgis/analysis/",
-      "version": "1.15.0",
-      "label": "Analysis",
-      "config": {
-        "toolList": []
-      },
-      "id": "widget_52",
-      "useMapWidgetIds": [
-        "widget_29"
-      ],
-      "useUtilities": []
-    },
     "widget_53": {
       "uri": "widgets/arcgis/analysis/",
       "version": "1.15.0",
@@ -12810,396 +12591,6 @@
         "widget_1"
       ]
     },
-    "widget_57": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.15.0",
-      "label": "Map",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_6",
-        "initialMapState": null,
-        "scaleRange": null
-      },
-      "id": "widget_57",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_22"
-        }
-      },
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "isOperationalLayer": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_6",
-          "mainDataSourceId": "dataSource_6"
-        }
-      ]
-    },
-    "widget_60": {
-      "uri": "widgets/arcgis/analysis/",
-      "version": "1.15.0",
-      "label": "Analysis 3",
-      "config": {
-        "toolList": [
-          {
-            "id": "c9b2e870-b25e-11ef-8696-d5fef6d41914",
-            "type": "standard",
-            "toolName": "ExtractData",
-            "analysisEngine": "standard",
-            "config": {
-              "input": {
-                "selectFromMapLayer": false,
-                "allowBrowserLayers": false,
-                "allowDrawingOnTheMap": false,
-                "allowLocalFileUpload": false,
-                "allowServiceUrl": false,
-                "selectFromOtherWidget": false
-              },
-              "output": {
-                "addResultLayersToMapAuto": false,
-                "allowExportResults": false
-              },
-              "option": {}
-            }
-          }
-        ]
-      },
-      "id": "widget_60",
-      "useMapWidgetIds": [
-        "widget_57"
-      ]
-    },
-    "widget_61": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.15.0",
-      "label": "Map 2",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_7",
-        "initialMapState": null,
-        "scaleRange": null
-      },
-      "id": "widget_61",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_24"
-        }
-      },
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "isOperationalLayer": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_7",
-          "mainDataSourceId": "dataSource_7"
-        }
-      ]
-    },
-    "widget_62": {
-      "uri": "widgets/arcgis/analysis/",
-      "version": "1.15.0",
-      "label": "Analysis 4",
-      "config": {
-        "toolList": [
-          {
-            "id": "d4e24930-b267-11ef-8180-d1aeb191a871",
-            "type": "standard",
-            "toolName": "ExtractData",
-            "analysisEngine": "standard",
-            "config": {
-              "input": {
-                "selectFromMapLayer": false,
-                "allowBrowserLayers": false,
-                "allowDrawingOnTheMap": false,
-                "allowLocalFileUpload": false,
-                "allowServiceUrl": false,
-                "selectFromOtherWidget": false
-              },
-              "output": {
-                "addResultLayersToMapAuto": false,
-                "allowExportResults": false
-              },
-              "option": {}
-            }
-          }
-        ]
-      },
-      "id": "widget_62",
-      "useMapWidgetIds": [
-        "widget_61"
-      ]
-    },
-    "widget_63": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.15.0",
-      "label": "Map 3",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true
-        },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_8",
-        "initialMapState": null,
-        "scaleRange": null
-      },
-      "id": "widget_63",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_26"
-        }
-      },
-      "dataActions": {
-        "showOnMap": {
-          "config": {
-            "isUseCustomSymbol": true,
-            "isOperationalLayer": true,
-            "symbolOption": {
-              "pointSymbol": {
-                "type": "esriSMS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "angle": 0,
-                "xoffset": 0,
-                "yoffset": 0,
-                "size": 12,
-                "style": "esriSMSCircle",
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                }
-              },
-              "polylineSymbol": {
-                "type": "esriSLS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              },
-              "polygonSymbol": {
-                "type": "esriSFS",
-                "color": [
-                  255,
-                  255,
-                  0,
-                  150
-                ],
-                "outline": {
-                  "type": "esriSLS",
-                  "color": [
-                    255,
-                    255,
-                    0,
-                    150
-                  ],
-                  "width": 1,
-                  "style": "esriSLSSolid"
-                },
-                "style": "esriSFSSolid"
-              }
-            }
-          }
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8"
-        }
-      ]
-    },
-    "widget_64": {
-      "uri": "widgets/arcgis/analysis/",
-      "version": "1.15.0",
-      "label": "Analysis 5",
-      "config": {
-        "toolList": [
-          {
-            "id": "570a7220-b268-11ef-a7cd-e3dfd2e1724b",
-            "type": "standard",
-            "toolName": "ExtractData",
-            "analysisEngine": "standard",
-            "config": {
-              "input": {
-                "selectFromMapLayer": false,
-                "allowBrowserLayers": false,
-                "allowDrawingOnTheMap": false,
-                "allowLocalFileUpload": false,
-                "allowServiceUrl": false,
-                "selectFromOtherWidget": false
-              },
-              "output": {
-                "addResultLayersToMapAuto": false,
-                "allowExportResults": false
-              },
-              "option": {}
-            }
-          }
-        ]
-      },
-      "id": "widget_64",
-      "useMapWidgetIds": [
-        "widget_63"
-      ]
-    },
     "widget_65": {
       "uri": "widgets/draw-custom/",
       "version": "1.4.0",
@@ -13209,7 +12600,8 @@
       "id": "widget_65",
       "useMapWidgetIds": [
         "widget_1"
-      ]
+      ],
+      "label": "Custom Draw Tool"
     },
     "widget_69": {
       "uri": "widgets/Sketch/",
@@ -13221,7 +12613,63 @@
       "id": "widget_69",
       "useMapWidgetIds": [
         "widget_1"
+      ],
+      "label": "Custom Editor"
+    },
+    "widget_70": {
+      "uri": "widgets/Sketch/",
+      "version": "1.15.0",
+      "label": "Sketch 2",
+      "config": {
+        "exampleConfigProperty": "test",
+        "filterField": ""
+      },
+      "id": "widget_70",
+      "useMapWidgetIds": [
+        "widget_29"
       ]
+    },
+    "widget_71": {
+      "uri": "widgets/common/controller/",
+      "version": "1.15.0",
+      "label": "New Tools",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "arrangement": "fixed"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_71",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_19"
+        }
+      },
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -13986,18 +13434,9 @@
     },
     {
       "page_2": []
-    },
-    {
-      "page_6": []
-    },
-    {
-      "page_8": []
-    },
-    {
-      "page_11": []
     }
   ],
-  "timestamp": 1736909684454,
+  "timestamp": 1738600785681,
   "controllerPanels": {
     "widget_5": {
       "position": "BOTTOM_LEFT",
@@ -14066,6 +13505,15 @@
           "direction": null
         }
       }
+    },
+    "widget_71": {
+      "position": "BOTTOM_LEFT",
+      "width": "320px",
+      "height": "480px",
+      "offsetX": 0,
+      "offsetY": 0,
+      "widthMode": "CUSTOM",
+      "heightMode": "CUSTOM"
     }
   },
   "urlParams": {
