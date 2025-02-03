@@ -185,6 +185,28 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "11": {
+          "type": "WIDGET",
+          "widgetId": "widget_71",
+          "bbox": {
+            "left": "50%",
+            "bottom": "9.9%",
+            "width": "8.0%",
+            "height": "5.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
         }
       },
       "type": "FIXED",
@@ -193,7 +215,8 @@
         "3",
         "4",
         "7",
-        "10"
+        "10",
+        "11"
       ]
     },
     "layout_3": {
@@ -245,16 +268,6 @@
           "widgetId": "widget_53",
           "bbox": {},
           "setting": {}
-        },
-        "8": {
-          "type": "WIDGET",
-          "widgetId": "widget_65",
-          "bbox": {}
-        },
-        "12": {
-          "type": "WIDGET",
-          "widgetId": "widget_69",
-          "bbox": {}
         }
       },
       "type": "FIXED",
@@ -266,9 +279,7 @@
         "2",
         "5",
         "6",
-        "7",
-        "8",
-        "12"
+        "7"
       ]
     },
     "layout_8": {
@@ -480,6 +491,30 @@
               "bottom": true
             }
           }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_72",
+          "bbox": {
+            "left": "50%",
+            "right": "43.8%",
+            "top": "85.5%",
+            "bottom": "8.7%",
+            "width": "10.8%",
+            "height": "5.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
         }
       },
       "type": "FIXED",
@@ -488,7 +523,8 @@
         "3",
         "4",
         "7",
-        "8"
+        "8",
+        "9"
       ]
     },
     "layout_16": {
@@ -539,11 +575,6 @@
           "widgetId": "widget_51",
           "bbox": {},
           "setting": {}
-        },
-        "7": {
-          "type": "WIDGET",
-          "widgetId": "widget_70",
-          "bbox": {}
         }
       },
       "type": "FIXED",
@@ -554,8 +585,7 @@
         "4",
         "2",
         "5",
-        "6",
-        "7"
+        "6"
       ]
     },
     "layout_17": {
@@ -632,6 +662,46 @@
         "1"
       ],
       "label": "Default"
+    },
+    "layout_19": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_69",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_20": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_70",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_73",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "0"
+      ]
     }
   },
   "exbVersion": "1.15.0",
@@ -721,6 +791,7 @@
       "label": "US - Title",
       "config": {
         "text": "<p><strong style=\"color: var(--light); font-size: 24px;\">American FireGuard Web Editor</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -12121,6 +12192,7 @@
       "label": "Canadian Title",
       "config": {
         "text": "<p><strong style=\"font-size: 24px; color: var(--light);\">Canadian FireGuard Web Editor</strong></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -12567,7 +12639,8 @@
       "id": "widget_65",
       "useMapWidgetIds": [
         "widget_1"
-      ]
+      ],
+      "label": "Custom Draw Tool"
     },
     "widget_69": {
       "uri": "widgets/Sketch/",
@@ -12579,7 +12652,23 @@
       "id": "widget_69",
       "useMapWidgetIds": [
         "widget_1"
-      ]
+      ],
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M11.227 1.312c-.404-.404-1.045-.417-1.432-.03L2.49 8.587l-.48 2.674a.637.637 0 0 0 .73.73l2.673-.48 7.305-7.306c.387-.387.374-1.028-.03-1.431zm-8.114 9.575.32-1.781 4.991-4.992 1.462 1.462-4.992 4.991zm7.473-6.012 1.402-1.4-1.462-1.463-1.401 1.402z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M1.5 14a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1z\"></path></svg>",
+        "properties": {
+          "filename": "EditOutlined",
+          "originalName": "outlined/editor/edit.svg",
+          "path": [
+            "editor",
+            "EditOutlined"
+          ],
+          "color": "#ffffff",
+          "size": 16,
+          "inlineSvg": true,
+          "isUploaded": false
+        }
+      },
+      "label": "Custom Editor"
     },
     "widget_70": {
       "uri": "widgets/Sketch/",
@@ -12590,6 +12679,142 @@
         "filterField": ""
       },
       "id": "widget_70",
+      "useMapWidgetIds": [
+        "widget_29"
+      ],
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M11.227 1.312c-.404-.404-1.045-.417-1.432-.03L2.49 8.587l-.48 2.674a.637.637 0 0 0 .73.73l2.673-.48 7.305-7.306c.387-.387.374-1.028-.03-1.431zm-8.114 9.575.32-1.781 4.991-4.992 1.462 1.462-4.992 4.991zm7.473-6.012 1.402-1.4-1.462-1.463-1.401 1.402z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M1.5 14a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1z\"></path></svg>",
+        "properties": {
+          "filename": "EditOutlined",
+          "originalName": "outlined/editor/edit.svg",
+          "path": [
+            "editor",
+            "EditOutlined"
+          ],
+          "color": "#ffffff",
+          "size": 16,
+          "inlineSvg": true,
+          "isUploaded": false
+        }
+      }
+    },
+    "widget_71": {
+      "uri": "widgets/common/controller/",
+      "version": "1.15.0",
+      "label": "New Tools",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "arrangement": "fixed"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_71",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_19"
+        }
+      },
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_72": {
+      "uri": "widgets/common/controller/",
+      "version": "1.15.0",
+      "label": "New Tools",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "arrangement": "fixed"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "#b54900",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--danger-600)"
+              },
+              "active": {
+                "bg": "var(--danger-500)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#868686",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_72",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_20"
+        }
+      }
+    },
+    "widget_73": {
+      "uri": "widgets/draw-custom/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/draw-custom/icon.svg",
+        "properties": {
+          "originalName": null,
+          "path": null,
+          "color": "#ffffff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "config": {
+        "creationMode": "continuous"
+      },
+      "id": "widget_73",
       "useMapWidgetIds": [
         "widget_29"
       ]
@@ -13340,13 +13565,7 @@
         "isUploaded": true,
         "inlineSvg": false
       }
-    },
-    "isWebTier": false,
-    "clientId": "e8naIKPWzppIIwTA",
-    "title": "FireGuard Web Editor - Alpha",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1733348714288.png"
+    }
   },
   "sharedThemeVariables": {
     "header": {},
@@ -13365,7 +13584,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1738256258005,
+  "timestamp": 1738602615284,
   "controllerPanels": {
     "widget_5": {
       "position": "BOTTOM_LEFT",
@@ -13434,6 +13653,28 @@
           "direction": null
         }
       }
+    },
+    "widget_71": {
+      "position": "BOTTOM_LEFT",
+      "offsetX": 0,
+      "offsetY": 0,
+      "left": "0.00%",
+      "top": "25%",
+      "right": "85%",
+      "bottom": "0%",
+      "widthMode": "STRETCH",
+      "heightMode": "STRETCH"
+    },
+    "widget_72": {
+      "position": "BOTTOM_LEFT",
+      "offsetX": 0,
+      "offsetY": 0,
+      "left": "0.00%",
+      "top": "25%",
+      "right": "85%",
+      "bottom": "0%",
+      "widthMode": "STRETCH",
+      "heightMode": "STRETCH"
     }
   },
   "urlParams": {
@@ -13471,6 +13712,5 @@
   "cookieBanner": {
     "uid": "643ae510-9d5f-11ef-b9ee-7da3903f4cec"
   },
-  "utilities": {},
-  "publishTimestamp": 1738256381974
+  "utilities": {}
 }
